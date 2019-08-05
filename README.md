@@ -1,12 +1,12 @@
 # Ansible Role: Pip (for Python)
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-pip.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-pip)
+[![Build Status](https://travis-ci.org/daverod24/ansible-role-pip.svg?branch=master)](https://travis-ci.org/daverod24/ansible-role-pip)
 
 An Ansible Role that installs [Pip](https://pip.pypa.io) on Linux.
 
 ## Requirements
 
-On RedHat/CentOS, you may need to have EPEL installed before running this role. You can use the `geerlingguy.repo-epel` role if you need a simple way to ensure it's installed.
+On RedHat/CentOS, you may need to have EPEL installed before running this role. You can use the `daverod24.repo-epel` role if you need a simple way to ensure it's installed.
 
 ## Role Variables
 
@@ -65,7 +65,7 @@ None.
           - name: awscli
     
       roles:
-        - geerlingguy.pip
+        - daverod24.pip
 
 ## License
 
